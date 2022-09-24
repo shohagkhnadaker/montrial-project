@@ -1,0 +1,36 @@
+.video_continer .video {
+    margin: 5px;
+    overflow: hidden;
+    border: 1px solid #44bf51;
+    box-shadow: 1px 3px 23px 4px #00ff5875;
+}
+
+
+.video_continer .video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    place-items: center;
+} 
+
+
+
+.container .heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 2rem;
+    text-align: center;
+    text-shadow: 0 .3rem 5.rem red;
+
+}
+.subpage{
+    margin-bottom: 50px;
+}
+
+.video_continer {
+    padding-bottom: 25px;
+}

@@ -1,0 +1,673 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+section{
+    margin-bottom: 41px;
+}
+
+.phon{
+    margin-top: 19px;
+}
+.phon i{
+    color:goldenrod;
+    cursor:pointer;
+}
+.facebook{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.facebook a i{color: white;}
+.facebook a:hover i{
+    color:goldenrod
+}
+.sucialto{
+    margin-top:15px;
+    cursor: pointer;
+}
+
+/* top minu bar */
+
+
+#topminu{
+    background: #999;
+    /* position: fixed; */
+}
+
+.logo{
+    width: 20%;
+    color: rgba(247, 227, 10, 0.998);
+    font-family: arrial;
+    font-size: 22px;
+margin-top: 5px;
+}
+
+ul.minuul .p-2 {
+    color: black;
+}
+
+
+ul.minuul li {
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    margin-right:55px;
+
+}
+
+ul.minuul li a{
+    color: white;
+    text-decoration: none;
+    font-size:17px;
+    font-weight: bold;
+    text-transform:capitalize;
+    
+}
+.minuul li:hover a{
+   color: gold !important;
+}
+
+.topbaricon span i{
+font-size: 25px;
+
+}
+
+.topbaricon span:hover i{
+  color: gold !important;
+    }
+
+/* submini */
+.subminu li a i {
+    position: absolute;
+    top: -6px;
+    left: 64px;
+}
+ul.subminu{
+    display: none;
+}
+.subminushow{
+    display:block !important;
+}
+ul.minuul .subminu li {
+    
+    margin-bottom: 0px !important;
+    color: chocolate;
+    font-size: 16px !important;
+    font-weight: bold;
+
+}
+ul.minuul .subminu li a{
+    color: chocolate !important;
+    font-size: 16px;
+    font-weight: bold;
+
+
+    
+}
+
+
+ul.minuul .subminu li:hover a{
+    color: goldenrod !important;
+    
+}
+
+
+.topminuscroll{
+    background:#000;
+}
+
+
+/* top nav */
+.text-gold{
+    color: gold !important;
+}
+
+/* home strat */
+button.btn.btn-primary.btn-lg:hover {
+    background: #cca743;
+    color:white;
+}
+button.btn.btn-primary.btn-lg {
+    font-weight: bold;
+    background: gold;
+    color: black;
+    font-family: cursive;
+}
+
+
+#home{
+    background:linear-gradient(rgba(201, 22, 22, 0.249),rgba(253, 249, 124, 0.324)),url("montrial.jpeg");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.hometitel1 {
+    padding: 50px;
+    color:  black !important;
+     display: block !important;
+    width: 100%;
+}
+.homedisript{
+    color: #e3fb0af2 !important;
+}
+.titelinline{
+    margin-left:90px;
+}
+.hometitel1 .text1{
+     color: rgb(234, 228, 218) !important;
+     font-family:cursive ;
+     font-size: 50px;
+    
+}
+.hometitel1 .text2{
+    color:rgb(234, 228, 218);
+    font-family:cursive !important;
+    font-size: 50px;
+
+
+   
+}
+
+.homebtn button a {
+    text-decoration: none;
+    color: white;
+}
+.subminu{
+    display: none;
+}
+
+.hometitel1 .text3{
+    color:rgb(214, 225, 67) !important;
+    font-size: 25px;
+    font-family:cursive !important;
+   
+}
+.homedesc{
+    color:#a80a0af2;
+    font-size: 20px;
+}
+
+
+@media (min-width:1201px) and (max-width:1400px) {
+
+.logo{
+    width: 15% !important;
+}
+}
+
+
+
+/* service */
+.servisetitel {
+    padding-bottom: 38px;
+}
+
+.servicesingel{
+
+margin-bottom: 20px;
+
+}
+
+.servisetitel::before {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background: #a80a0af2;
+    position: relative;
+    top: 50px;
+    left: 61px;
+}
+
+.servisetitel::after {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background: #a80a0af2;
+    position: relative;
+    top: -3px;
+    left: -54px;
+}
+
+.ser::before {
+    content: ",";
+    color:#a80a0af2 ;
+    width: 20px;
+    height: 20px;
+    background: #a80a0af2;
+    position: relative;
+    top:3px;
+    left:-5px;
+}
+
+.ser::after {
+    content: ".";
+    color:#a80a0af2 ;
+
+    width: 1pxpx;
+    height: 50px;
+    background: #a80a0af2;
+    position: relative;
+    top: 1px;
+    left: 12px;
+}
+
+.foodtitel h3 {
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: emoji;
+}
+
+.foodtitel {
+    padding: 9px 0px;
+}
+
+.foodtitel p {
+    font-size: 16px;
+    font-family: emoji;
+    text-transform: capitalize;
+}
+
+ul.foodlist li {
+
+    padding: 5px 0px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.d-flex.justify-content-center.bg-white.border {
+    box-shadow: 2px 3px 8px 3px gold;
+}
+
+.serlearnmore {
+    display: flex;
+    text-align: center;
+    margin-top: -19px;
+    margin-bottom: 17px;
+    margin-left: 15px;
+}
+
+.serlearnmore a {
+    text-decoration: none;
+    color: #ee0f0f;
+    font-size: 18px;
+    font-family: ui-serif;
+}
+
+.serlearnmore a i {
+    margin-left: 10px;
+}
+.serlearnmore:hover a{
+    color: goldenrod;
+} 
+
+
+/* man hall */
+#manparty{
+    margin-bottom: 0px;
+}
+
+
+
+.mantitelsmall {
+    text-align: center;
+    color: white;
+
+}
+.manphoto {
+    width: 100%;
+    height: 205px;
+    overflow: hidden;
+}
+
+.manphoto img {
+    width: 100%;
+    place-items: center;
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+.mantitelsmall h3 {
+    font-size: 27px;
+    color: white;
+    font-family: emoji;
+    padding-top: 10px;
+}
+
+section#manparty {
+    background: #5dc05473;
+    padding-top: 40px;
+padding-bottom: 80px;
+}
+
+.mansinglebox {
+    border: 1px solid #d1294d5c;
+    height:330px;
+    box-shadow: -5px 1px 23px 6px #e4b3e469;
+    background-color: rgba(31, 81, 85, 0.47);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    
+}
+
+.mantitelsmall {
+    margin-bottom: 12px;
+}
+
+.mansinglebox a {
+    color: wheat;
+    text-decoration: none;
+    margin-left: 106px;
+    font-size: 20px;
+}
+
+.mansinglebox a:hover {
+    color: gold;
+}
+
+
+/* woman party */
+#womanparty{
+    padding-top: 30px;
+    background-color: rgb(223, 208, 43);
+    padding-bottom: 30px;
+}
+
+
+
+/* why choose us */
+.chosesingle {
+    border: 1px solid #3d423c;
+    box-shadow: -2px 8px 20px 3px;
+    border-radius: 0px;
+}
+
+
+.chosetitel {text-align: center;margin-top: 23px;}
+
+.chosslisth3 {
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.chosetitel p {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 22px;
+    font-family: fangsong;
+}
+
+
+.choselist h3 {
+    font-family: cursive;
+    margin: 23px;
+    font-size: 22px;
+}
+
+ul.chossul li {
+    cursor: pointer;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+ul.chossul li:hover i{
+    color: gold;
+}
+ul.chossul li i{
+    font-size: 20px;
+}
+
+
+/* madam */
+.madamfacebook a {
+    text-decoration: none;
+}
+
+.madamphoto.w-100 {
+    height: 300px;
+    overflow: hidden;
+}
+
+.madamphoto img {
+    overflow: hidden !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50% !important;
+}
+
+.madamtitel {
+    text-align: center;
+}
+
+.madamcontract {
+    border: 1px solid #521b1b;
+    background: #002bff57;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.madamtitel h4 {
+    font-family: ui-monospace;
+}
+
+.madamtitel span i {
+    color: gold;
+}
+
+.madamtitel p {
+    margin-bottom: -1px;
+}
+
+.madamtitel img {
+    border-radius: 5px;
+}
+
+
+section#contrctwithus {
+    padding-top: 40px;
+}
+
+.madammailtitel {
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.madammailtitel h3 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: #4ca15a;
+}
+
+.inputname {text-align: center;}
+
+.inputname p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.inputname p input {
+    border-radius: 25px;
+    background: #a8b7ff;
+    border: none;
+    width: 59%;
+    font-family: cursive;
+}
+
+input#inputwrite {
+    padding: 30px;
+    border: 2px solid #a8b7ff;
+    font-family: cursive;
+}
+textarea#madammsgtext {
+    border: 3px solid #a8b7ff;
+    text-align: -webkit-match-parent;
+}
+
+.massagebtn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.massagebtn button {
+    background: #a8b7ff;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.madamfacebook {
+    padding-right: 5px !important;
+    text-align: end;
+    width: 100px;
+    background: white;
+    transform: translateX(-71px);
+    transition: 1s;
+    padding: 2px;
+    cursor: pointer;
+  border-bottom: 1px solid;
+}
+
+.madamfacebook:hover {
+    transform: translateX(-13px);
+}
+.madamfacebook i {
+    margin-left: 5px;
+}
+
+.madamfacebook span {
+    font-size: 13px;
+    color: black;
+}
+.mfacebook i{
+    background-color: #3b5998 !important;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.mtwitter i{
+background-color: #00acee;
+padding: 3px;
+    border-radius: 50%;
+    color: white;
+
+}
+.mlinkdin i{
+
+background-color:#0072b1 ;
+padding: 3px;
+    border-radius: 50%;
+    color: white;
+
+}
+
+.msocialwrapper {
+    width: 108px;
+    margin-top: 104px;
+    position: absolute;
+}
+
+.msnapchat i{
+background-color:#FFFC00 !important;
+padding: 3px;
+    border-radius: 50%;
+    color: white;
+
+}
+
+
+/* decoration */
+.kosawrapper {
+    height: 407px;
+}
+.kosaname {
+    background: #292626;
+}
+
+ul.kosanameul {
+    list-style: none;
+    color: white;
+}
+
+.decoretionimagese img {
+    width: 100%;
+    height: 400px;
+}
+
+.decorationimg {
+    position: relative;
+}
+
+.decoretionimagese {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+}
+
+
+.slaideractive{
+    opacity: 1;
+}
+
+.xx{
+    display:block;
+}
+.yy{    display:none;
+}
+.zz{
+    display:none;
+}
+
+
+.unactive{
+    display: none !important;
+}
+
+/* fotter*/
+footer#fotter {
+    background: #000000c2;
+    border-top: 5px solid #6c757d;
+}
+
+.mohammdboss p {
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+ul.fotterul {list-style: none;text-decoration: none;}
+
+ul.fotterul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+ul.fotterul li {
+    float: left;
+    padding: 5px;
+    margin-right: 20px;
+}
+ul.fotterul li:hover a {
+    color: gold;
+}
+
+/* video */
+.videolink {
+    background: black;
+    padding-bottom: 300px;
+}
+
+.topbaricon{
+    top: 0;
+    left: 0;
+}

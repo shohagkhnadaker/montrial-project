@@ -1,0 +1,439 @@
+@media (max-width:768px) {
+/* womanvideo */
+
+.video_continer .video{
+    height:500px !important;
+    width: 80%;
+    margin: auto;
+ 
+} 
+
+
+.container .heading{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing:.5rem;
+    text-align: center;
+    text-shadow: 0 .3rem 5.rem red;
+
+}
+
+/* fotter */
+.foteremail p {
+    font-size: 15px;
+    margin-left: 4px;
+}
+.wonar.col-5 {
+    width: 100%;
+}
+
+.foteremail.col-6 {
+    width: 100%;
+}
+    /* contract */
+    .madammailtitel {
+        padding-top: 25px;
+    }
+    /* //service */
+    .servisetitel::after {
+        content: "";
+        width: 66px;
+        height: 5px;
+        background: #a80a0af2;
+        position: relative;
+        top: -3px;
+        left: -54px;
+    }
+    .servisetitel::before {
+        content: "";
+        width: 66px;
+        height: 5px;
+        background: #a80a0af2;
+        position: relative;
+        top: 39px;
+        left: 61px;
+    }
+
+    .ser::before {
+        content: ",";
+        color:#a80a0af2 ;
+        width: 20px;
+        height: 20px;
+        background: #a80a0af2;
+        position: relative;
+        top:3px;
+        left:-5px;
+    }
+    /* minu */
+
+    ul.minuul {
+        width: 250px;
+        position: fixed;
+        left: 0px;
+        top: 55px;
+        background: rgba(0, 0, 0, 0.721);
+        height: 100vh;
+        overflow: hidden;
+        transform: translateX(-251px);
+        transition: 0.5s !important;
+
+
+
+    }
+
+.subminu li a i {
+    color:gold !important;
+}
+
+    ul.minuul li a {
+
+        color: white !important;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 40px !important;
+
+    }
+
+    ul.minuul li {
+        padding: 0px !important;
+        padding-top: 10px;
+        padding-bottom: 20px !important;
+    }
+
+    .logo {
+
+        width: 100% !important;
+
+    }
+    .showMinu{
+        transform: translatex(0px) !important;
+    }
+
+    .minu .topbaricon {
+
+        display: block !important;
+        margin-top:13px;
+    }
+
+    .topbaricon span i {
+        font-size: 30px;
+        margin-right: 40px;
+        color: black !important;
+
+    }
+    
+    .titelinline{
+        margin-left:0px !important;
+    }
+    ul.subminu {
+        display: none ;
+    }
+    
+
+    .topminu {
+        background: rgba(0, 0, 0, 0.477);
+    }
+
+    .minu {
+        width: 100% !important;
+    }
+
+}
+
+/*  */
+@media (min-width:768px) and (max-width:992px) {
+
+    /* fotter */
+    .wonar.col-5 {
+        width: 100%;
+    }
+    
+    .foteremail.col-6 {
+        width: 100%;
+    }
+
+    /* service */
+.servisetitel::before {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background: #a80a0af2;
+    position: relative;
+    top: 45px;
+    left: 61px;
+}
+
+.servisetitel::after {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background: #a80a0af2;
+    position: relative;
+    top: -3px;
+    left: -54px;
+}
+
+
+/* minu */
+    ul.minuul.d-flex li a {
+        color: white;
+        text-decoration: none;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    ul.minuul li {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        margin-right:40px !important;
+        padding-bottom: 16px;
+        margin-bottom: -30px;
+        
+    }
+    ul.subminu{
+        display: none;
+        background: black;
+        width: 200px;
+        position: absolute;
+        top: 40.5px;
+    }
+
+    .subminu li a i {
+        color:gold !important;
+    }
+    li.dropdown:hover .subminu {display: block;}
+    
+.logo.p-2 {
+    width: 10%;
+    color: gold;
+    font-family: arrial;
+    font-size: 22px;
+}
+
+
+    li.dropdown a i {margin-top: 5px;margin-left: 15px;}
+
+    .dropdown .minisub {
+        /* background: red; */
+        top: 20px;
+        left: 10px;
+        
+    }
+    #minisubid{
+        display: none !important;
+    }
+    .minidropdown:hover #minisubid{
+        display: block !important;
+    }
+
+
+
+
+    ul.minuul {
+        display: flex !important;
+    }
+
+}
+
+/*  */
+@media (min-width:993px) and (max-width:1200px) {
+    /* kosa */
+    .decoretionimagese img {
+        width: 100%;
+        height: 490px;
+    }
+    .kosawrapper {
+        height: 472px;
+    }
+
+/* service */
+.servicesingel:hover{
+    transform: scaleY(1.1);
+}
+.servisetitel::before {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background: #a80a0af2;
+    position: relative;
+    top: 47px;
+    left: 61px;
+}
+
+.servisetitel::after {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background: #a80a0af2;
+    position: relative;
+    top: -3px;
+    left: -54px;
+}
+/* minu */
+
+    ul.minuul.d-flex li {
+        color:white;
+
+        text-decoration: none;
+        /* font-size: 12px !important; */
+        font-weight: bold;
+        /* margin-right:5px !important; */
+
+    }
+
+    .dropdown .minisub {
+        /* background: red; */
+        top: 20px;
+        left: 10px;
+        
+    }
+    #minisubid{
+        display: none !important;
+    }
+    .minidropdown:hover #minisubid{
+        display: block !important;
+    }
+
+.subminu li a i {
+    color:gold !important;
+}
+    ul.minuul li {
+        color: black;
+        list-style: none;
+        text-decoration: none;
+        margin-right:60px !important;
+        
+    }
+    li.dropdown:hover .subminu {display: block !important;}
+    ul.subminu{
+        display:none;
+        background: black;
+        width: 200px;
+        position: absolute;
+        top: 48px;
+    }
+    li.dropdown a i {margin-top: 0px !important;margin-left: 20px;}
+
+
+    ul.minuul {
+        display: flex !important;
+
+    }
+    li.dropdown a i {
+        color: gold;
+        margin-top:8px !important;
+        margin-left: 5px !important;
+          /* position: absolute; */
+        }
+
+    #home {
+        background:linear-gradient(rgba(201, 22, 22, 0.249),rgba(253, 249, 124, 0.324)),url("montrial.jpeg");
+        width: 100%;
+        height: 550px;
+        background-position: center;
+
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+ 
+
+}
+
+@media (min-width:1201px) and (max-width:1800px) {
+/* kosa */
+.decoretionimagese img {
+    width: 100%;
+    height: 490px;
+}
+.kosawrapper {
+    height: 472px;
+}
+
+/*woman party */
+section#womanparty::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 80px;
+    top: 103rem;
+    transform: skewy(1.8deg);
+    left: 0;
+    background: rgb(223, 208, 43);
+}
+
+   /* service */
+   .servicesingel:hover{
+    transform: scaleY(1.1);
+}
+   .servisetitel::before {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background: #a80a0af2;
+    position: relative;
+    top: 50px;
+    left: 61px;
+}
+/* minu */
+   
+    ul.minuul.d-flex li {
+        color:white;
+        text-decoration: none;
+        font-size: 25px !important;
+        font-weight: bold;
+        margin-right: 85px !important;
+        padding-right: 10px !important;
+
+
+    }
+    .subminu li a i {
+        color:gold !important;
+    }
+    ul.minuul li {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        margin-right: 133px;
+        font-size: 22px;
+        padding-bottom: 16px;
+        margin-bottom: -23px;
+    }
+
+    ul.minuul {
+        display: flex !important;
+
+    }
+    .dropdown .minisub {
+        /* background: red; */
+        top: 20px;
+        left: 10px;
+        
+    }
+    #minisubid{
+        display: none !important;
+    }
+    /* .minidropdown:hover #minisubid{
+        display: block !important;
+    } */
+
+    /* subminu */
+    ul.subminu{
+    
+        background: black;
+        width: 200px;
+        position: absolute;
+        top: 48px;
+    }
+    li.dropdown a i {margin-top: 12px;margin-left: 5px;}
+
+    #home {
+        background:linear-gradient(rgba(201, 22, 22, 0.249),rgba(253, 249, 124, 0.324)),url("montrial.jpeg");
+        width: 100%;
+        height: 550px;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    /* li.dropdown:hover .subminu {display: block !important;} */
+}
